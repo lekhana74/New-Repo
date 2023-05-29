@@ -5,12 +5,12 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case-Formato de casos</members>
-        <members>CaseClose-Formato de Cerrar caso</members>
-        <name>Layout</name>
-    </types>
-    <types>
         <members>Admin</members>
+        <members>ContractManager</members>
+        <members>MarketingProfile</members>
+        <members>Read Only</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
         <name>Profile</name>
     </types>
     <version>57.0</version>
