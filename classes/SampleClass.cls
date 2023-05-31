@@ -6,5 +6,5 @@ public class SampleClass {
     public String concatenateStrings(String s1, String s2) {
         return s1 + s2;
     }
-
+     //system.debug('a')
 }
