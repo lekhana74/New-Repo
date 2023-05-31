@@ -3,8 +3,10 @@ public class SampleClass {
         return a + b;
     }
     
-    public String concatenateStrings(String s1, String s2) {
+    public String concatenateStrings(String s1, String s2) 
+    {
+        system.debug('abc');
         return s1 + s2;
     }
-
+     
 }

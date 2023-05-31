@@ -5,10 +5,5 @@
         <members>SampleClassTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Admin</members>
-        <members>Standard</members>
-        <name>Profile</name>
-    </types>
     <version>57.0</version>
 </Package>
