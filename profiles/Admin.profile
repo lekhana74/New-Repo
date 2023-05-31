@@ -14894,7 +14894,7 @@
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Asset-Formato de activos</layout>
+        <layout>Asset-Sample layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
