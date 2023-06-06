@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Dummy_Field__c</members>
-        <name>CustomField</name>
+        <members>Asset-Sample layout</members>
+        <name>Layout</name>
     </types>
     <types>
         <members>Admin</members>
-        <members>ContractManager</members>
-        <members>Read Only</members>
         <members>Standard</members>
-        <members>StandardAul</members>
         <name>Profile</name>
     </types>
     <version>57.0</version>
