@@ -15026,6 +15026,10 @@
         <layout>Opportunity-Formato de oportunidades</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Test Layout</layout>
+        <recordType>Opportunity.Test_A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -17444,6 +17448,16 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.Test_A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Test_B</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>

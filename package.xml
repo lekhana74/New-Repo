@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>dummy</members>
-        <name>ApexClass</name>
+        <members>Opportunity.Test sales process</members>
+        <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Asset.Asset_Dummy_field__c</members>
-        <members>Asset.Hobbies__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Asset-Sample layout</members>
+        <members>Opportunity-Test Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Admin</members>
         <members>ContractManager</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>Salesforce API Only System Integrations</members>
+        <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Opportunity.Test_A</members>
+        <members>Opportunity.Test_B</members>
+        <name>RecordType</name>
     </types>
     <version>57.0</version>
 </Package>
