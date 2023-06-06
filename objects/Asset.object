@@ -125,6 +125,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Asset_Dummy_field__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Dummy field</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>copado__Test_Level</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ConsequenceOfFailure</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -147,6 +159,40 @@
         <fullName>ExternalIdentifier</fullName>
         <inlineHelpText>ID of matching record in an external system.</inlineHelpText>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Hobbies__c</fullName>
+        <externalId>false</externalId>
+        <label>Hobbies</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Carroms</fullName>
+                    <default>false</default>
+                    <label>Carroms</label>
+                </value>
+                <value>
+                    <fullName>Badminton</fullName>
+                    <default>false</default>
+                    <label>Badminton</label>
+                </value>
+                <value>
+                    <fullName>Chess</fullName>
+                    <default>false</default>
+                    <label>Chess</label>
+                </value>
+                <value>
+                    <fullName>Cricket</fullName>
+                    <default>false</default>
+                    <label>Cricket</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>InstallDate</fullName>
