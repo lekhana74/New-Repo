@@ -161,6 +161,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Global_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Picklist</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>copado__Metadata_Types</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Hobbies__c</fullName>
         <externalId>false</externalId>
         <label>Hobbies</label>
