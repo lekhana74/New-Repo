@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.Dummy_Email_Activity__c</members>
+        <members>Activity.Course__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Event-Formato de eventos</members>
         <members>Task-Formato de tareas</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Task.Task_A</members>
+        <members>Task.Task_B</members>
+        <name>RecordType</name>
     </types>
     <version>57.0</version>
 </Package>

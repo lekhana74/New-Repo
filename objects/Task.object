@@ -382,6 +382,16 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>Task_A</fullName>
+        <active>true</active>
+        <label>Task A</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Task_B</fullName>
+        <active>true</active>
+        <label>Task B</label>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>
