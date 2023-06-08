@@ -2,11 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Activity.Course__c</members>
+        <members>Activity.Dummy_Email_Activity__c</members>
+        <members>Activity.gig__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Event-Formato de eventos</members>
         <members>Task-Formato de tareas</members>
+        <members>Task-Task Test Layout</members>
         <name>Layout</name>
     </types>
     <types>
