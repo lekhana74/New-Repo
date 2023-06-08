@@ -113,6 +113,14 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Dummy_Email_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Dummy EMail_Activity</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
