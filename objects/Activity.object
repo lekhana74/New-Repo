@@ -113,6 +113,51 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Course__c</fullName>
+        <externalId>false</externalId>
+        <label>Course</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>salesforce</fullName>
+                    <default>false</default>
+                    <label>salesforce</label>
+                </value>
+                <value>
+                    <fullName>AWS DevOps</fullName>
+                    <default>false</default>
+                    <label>AWS DevOps</label>
+                </value>
+                <value>
+                    <fullName>Python</fullName>
+                    <default>false</default>
+                    <label>Python</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dummy_Email_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Dummy EMail_Activity</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gig__c</fullName>
+        <externalId>false</externalId>
+        <label>gig</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
