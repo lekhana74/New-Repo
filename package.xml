@@ -10,6 +10,11 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Admin</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Task.Task_A</members>
         <members>Task.Task_B</members>
         <name>RecordType</name>
