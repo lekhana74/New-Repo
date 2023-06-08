@@ -15066,6 +15066,14 @@
         <layout>Task-Formato de tareas</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Task-Formato de tareas</layout>
+        <recordType>Task.Task_A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Formato de tareas</layout>
+        <recordType>Task.Task_B</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-Formato de usuario</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -16272,6 +16280,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Test_B</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Task.Task_A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Task.Task_B</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
